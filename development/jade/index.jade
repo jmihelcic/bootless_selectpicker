@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Bootless selectpicker
+  style.
+    * { box-sizing: border-box; padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; }
+    body { padding: 25px }
+
+  link(rel="stylesheet", href="bootless-selectpicker.css")
+body
+  select#first.selectpicker
+    option(value='Option1') option 1
+    option(value='Option2') option 2
+    option(value='Option3') option 3
+    option(value='Option1') option 1
+    option(value='Option2') option 2
+    option(value='Option3') option 3
+    option(value='Option1') option 1
+    option(value='Option2') option 2
+    option(value='Option3') option 3
+    option(value='Option1') option 1 option 1 option 1 option 1
+    option(value='Option2') option 2
+    option(value='Option3') option 3
+  //
+    div.bootless-select
+      div.select-dropdown
+        span.dropdown-text Select an option
+        span.dropdown-icon
+      div.select-menu
+        for val in [1,2,3]
+          div.menu-group
+            div.group-option
+              span.option-text Option 1
+            div.group-option
+              span.option-text Option 2
+
+
+  script(src="https://code.jquery.com/jquery-2.2.0.min.js")
+  script(src="bootless-selectpicker.js")
+
+  

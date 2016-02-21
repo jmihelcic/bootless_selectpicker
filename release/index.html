@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Bootless selectpicker</title>
+  <style>
+    * { box-sizing: border-box; padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; }
+    body { padding: 25px }
+    
+  </style>
+  <link rel="stylesheet" href="bootless-selectpicker.css"/>
+</head>
+<body>
+  <select id="first" class="selectpicker">
+    <option value="Option1">option 1</option>
+    <option value="Option2">option 2</option>
+    <option value="Option3">option 3</option>
+    <option value="Option1">option 1</option>
+    <option value="Option2">option 2</option>
+    <option value="Option3">option 3</option>
+    <option value="Option1">option 1</option>
+    <option value="Option2">option 2</option>
+    <option value="Option3">option 3</option>
+    <option value="Option1">option 1 option 1 option 1 option 1</option>
+    <option value="Option2">option 2</option>
+    <option value="Option3">option 3</option>
+  </select>
+  <!--
+  div.bootless-select
+    div.select-dropdown
+      span.dropdown-text Select an option
+      span.dropdown-icon
+    div.select-menu
+      for val in [1,2,3]
+        div.menu-group
+          div.group-option
+            span.option-text Option 1
+          div.group-option
+            span.option-text Option 2
+  
+  
+  -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="bootless-selectpicker.js"></script>
+</body>
